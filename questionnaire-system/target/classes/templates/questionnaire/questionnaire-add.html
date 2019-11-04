@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/xadmin/lib/layui/css/layui.css"  media="all">
+    <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
+</head>
+<body>
+<div>
+    <button type="button" class="layui-btn" lay-demotransferactive="getData">生成问卷</button>
+</div>
+<div id="test0" class="demo-transfer"></div>
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+    <legend>单项选择题</legend>
+</fieldset>
+
+<div id="test1" class="demo-transfer"></div>
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+    <legend>多项选择题</legend>
+</fieldset>
+<div id="test2" class="demo-transfer"></div>
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+    <legend>问答题</legend>
+</fieldset>
+<div id="test3" class="demo-transfer"></div>
+
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+    <legend>你已触及我的底线</legend>
+</fieldset>
+
+<script src="/xadmin/lib/layui/layui.all.js" charset="utf-8"></script>
+<!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
+<script>
+    layui.use(['transfer', 'layer', 'util'], function(){
+        var $ = layui.$
+            ,transfer = layui.transfer
+            ,layer = layui.layer
+            ,util = layui.util;
+
+        var dataTest = [];
+        var single_selection = [];
+        var mult_selection = [];
+        var ques_answer = null;
+        $.ajax({
+            type : "get",
+            async : true,            //异步请求（同步请求将会锁住浏览器，用户其他操作必须等待请求完成才可以执行）
+            url : "/question/transferQues",
+            data : {},
+            dataType : "json",        //返回数据形式为json
+            success : function(result) {
+                single_selection = result.data.singleSelection;
+                mult_selection = result.data.multSelection;
+                ques_answer = result.data.quesAndAnswer;
+
+
+                transfer.render({
+                    id :'key1'
+                    ,elem: '#test1'
+                    ,data: single_selection
+                    ,title :['待选题目','已选题目']
+                    ,width :400
+                    ,height :400
+                })
+
+                transfer.render({
+                    id :'key2'
+                    ,elem: '#test2'
+                    ,title: ['待选题目', '已选题目']  //自定义标题
+                    ,data: mult_selection
+                    ,width: 400 //定义宽度
+                    ,height :400
+                })
+
+                transfer.render({
+                    id :'key3'
+                    ,elem: '#test3'
+                    ,title: ['待选题目', '已选题目']  //自定义标题
+                    ,data: ques_answer
+                    ,width: 400 //定义宽度
+                    ,height :400
+                })
+                //批量办法定事件
+                util.event('lay-demoTransferActive', {
+                    getData: function(othis){
+
+                        var getData1 = transfer.getData('key1'); //获取右侧数据
+                        var getData2 = transfer.getData('key2'); //获取右侧数据
+                        var getData3 = transfer.getData('key3'); //获取右侧数据
+                        var transferMsg1 = {"0":JSON.stringify(getData1),"1":JSON.stringify(getData2),"2":JSON.stringify(getData3)};
+                        var transferMsg = JSON.stringify(transferMsg1);
+
+                        if(JSON.stringify(getData1)==="[]"&&JSON.stringify(getData2)==="[]"&&JSON.stringify(getData3)==="[]"){
+                            layer.alert("请选择题目后再生成问卷");
+                        }else {
+                            $.ajax({
+                                url:"/questionnaire/addQuestionnaire",
+                                type:"POST",
+                                data :{"transferMsg":transferMsg},
+                                dataType:"json",
+                                error:function (message) {
+                                    alert("提交失败"+JSON.stringify(message));
+                                }
+                            })
+                            layer.alert("生成问卷成功");
+                        }
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html class="x-admin-sm" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionnaire-System</title>
+    <header th:replace="header::html"></header>
+</head>
+<body style="position: relative">
+
+<div class="x-nav">
+
+          <span class="layui-breadcrumb">
+            <a href="">首页</a>
+            <a href="">信息显示</a>
+            <a>
+                <cite>用户列表</cite></a>
+          </span>
+    <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
+        <i class="layui-icon" style="line-height:30px">刷新列表</i></a>
+</div>
+<div class="layui-fluid">
+    <div class="layui-row  layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body ">
+                    <div class="demoTable">
+                        <div class="layui-inline layui-show-xs-block">
+                            <input class="layui-input" name="keyword" placeholder="请输入员工工号" id="demoReload" autocomplete="off">
+                        </div>
+                        <button class="layui-btn" data-type="reload">搜索</button>
+                        <button class="layui-btn" onclick="$('addUsers').style.display='block'" permission="sys:user:add"><i class="layui-icon"></i>添加用户</button>
+                    </div>
+
+                    <script type="text/html" id="barDemo">
+                        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del" permission="sys:user:del">删除</a>
+                    </script>
+                    <table class="layui-hide" id="LAY_table_user" lay-filter="user"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div style="display: block;position: absolute;top: 100px;left: calc(30% - 350px);width: 500px;height:300px;background:white" id="addUsers">-->
+<!--    <div class="layui-form-item">-->
+<!--        <label for="L_username" class="layui-form-label">-->
+<!--            <span class="x-red">*</span>用户名-->
+<!--        </label>-->
+<!--        <div class="layui-input-inline">-->
+<!--            <input type="text" id="L_username" name="username" lay-verify="required" autocomplete="off" class="layui-input">-->
+<!--        </div>-->
+<!--        <div class="layui-form-mid layui-word-aux">-->
+<!--            <span class="x-red">*</span>将会成为您唯一的登入名-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="layui-form-item">-->
+<!--        <label for="L_staffNo" class="layui-form-label">-->
+<!--            <span class="x-red">*</span>员工工号-->
+<!--        </label>-->
+<!--        <div class="layui-input-inline">-->
+<!--            <input type="text" id="L_staffNo"  name="staffNo" required="" lay-verify="staffNo" autocomplete="off" class="layui-input">-->
+<!--        </div>-->
+<!--        <div class="layui-form-mid layui-word-aux">-->
+<!--            5位数字-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>div-->
+</body>
+<script>
+    layui.use('table', function(){
+        var table = layui.table;
+
+        //方法级渲染
+        table.render({
+            elem: '#LAY_table_user'
+            ,url:'/user/manage'
+            ,response: {
+                statusName:'code',
+                statusCode:200,
+                msgName:'msg',
+                countName: 'count', //规定数据总数的字段名称，默认：count
+                dataName: 'data' //规定数据列表的字段名称，默认：data
+            }
+            ,cols: [
+                [ //表头
+                    ,{field: 'id', title: 'ID', align:'center', style: 'padding: 0'}
+                    ,{field: 'staffNo', title: '员工工号', align:'center'}
+                    ,{field: 'username', title: '账户', align:'center'}
+                    ,{field: 'password', title: '密码', align:'center'}
+                    ,{field: 'createTime', title: '创建时间', align:'center'}
+                    ,{title:'操作', toolbar: '#barDemo', align:'center'}
+                ]
+            ]
+            ,id: 'testReload'
+            ,page: true
+        });
+
+        //监听工具条
+        table.on('tool(user)', function(obj){
+            var data = obj.data;
+            if(obj.event === 'del'){
+                layer.confirm('真的删除行么', function(index){
+
+                    $.ajax({
+                        url:"/user/delete",
+                        type:"POST",
+                        data:{id:data.id},
+                        dataType:'json',
+                        success:function(result){
+                            layer.alert("删除成功", {icon: 1},function (index1) {
+                                layer.close(index1);
+                                parent.location.reload();
+                                table.reload();
+                            });
+                        },
+                    });
+
+                });
+            } else if(obj.event === 'edit'){
+                xadmin.open('编辑用户信息','/user/edit/?id='+data.id);
+            }
+        });
+
+        var $ = layui.$, active = {
+            reload: function(){
+                var demoReload = $('#demoReload');
+                //执行重载
+                table.reload('testReload', {
+                    where: {
+                            keyword: demoReload.val()
+                    }
+                });
+            }
+        };
+
+        $('.demoTable .layui-btn').on('click', function(){
+            var type = $(this).data('type');
+            active[type] ? active[type].call(this) : '';
+        });
+    });
+</script>
+</html>
+<style>
+    .layui-table-cell{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .laytable-cell-1-0-2 {
+        margin: 0 !important;
+    }
+    .layui-table td, .layui-table th {
+        min-width: 40px !important;
+    }
+</style>

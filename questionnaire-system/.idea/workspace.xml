@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a6d6d89-31ef-4a9c-93b1-38f5e4b8c36d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CommittedChangesCache">
+    <option name="initialCount" value="10" />
+    <option name="refreshEnabled" value="true" />
+    <option name="refreshInterval" value="300" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1Ru091aLH0jfb8ItSYz3FbOkTTl" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="G:/learning/spring boot security manager/springboot权限管理课程阶段源码/课程阶段源码/06_friday-v1-20190604" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\questionnaire-system\src\main\resources\static\xadmin\lib" />
+      <recent name="F:\questionnaire-system\src\main\resources\static\xadmin\lib\layui\lay\modules" />
+      <recent name="F:\questionnaire-system\src\main\java\com\chinameyer\questionnaire" />
+      <recent name="F:\questionnaire-system\src\main\resources\templates" />
+      <recent name="G:\SVN\VisitorSys\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\questionnaire-system\src\main\resources\templates\result" />
+      <recent name="F:\questionnaire-system\src\main\resources\templates\questionnaire" />
+      <recent name="F:\questionnaire-system\src\main\resources\static" />
+      <recent name="G:\SVN\VisitorSys\src\main\resources\templates" />
+      <recent name="G:\SVN\VisitorSys\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VisitorApplication">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chinameyer.questionnaire.utils.HttpClient" />
+      <module name="questionnaire-system" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chinameyer.questionnaire.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionnaireApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chinameyer.questionnaire.QuestionnaireApplicationTests" />
+      <module name="questionnaire-system" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chinameyer.questionnaire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionnaireApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chinameyer.questionnaire.QuestionnaireApplicationTests" />
+      <module name="questionnaire-system" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chinameyer.questionnaire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymmetricEncoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chinameyer.questionnaire.utils.SymmetricEncoder" />
+      <module name="questionnaire-system" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chinameyer.questionnaire.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionnaireApplicationTests.testMd5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="questionnaire-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chinameyer.questionnaire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chinameyer.questionnaire" />
+      <option name="MAIN_CLASS_NAME" value="com.chinameyer.questionnaire.QuestionnaireApplicationTests" />
+      <option name="METHOD_NAME" value="testMd5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" show_console_on_std_err="true" show_console_on_std_out="true">
+      <module name="questionnaire-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chinameyer.questionnaire.QuestionnaireApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SymmetricEncoder" />
+      <item itemvalue="Application.QuestionnaireApplicationTests" />
+      <item itemvalue="Application.HttpClient" />
+      <item itemvalue="JUnit.QuestionnaireApplicationTests.testMd5" />
+      <item itemvalue="Spring Boot.VisitorApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SymmetricEncoder" />
+        <item itemvalue="Application.HttpClient" />
+        <item itemvalue="Application.QuestionnaireApplicationTests" />
+        <item itemvalue="Application.QuestionnaireApplicationTests" />
+        <item itemvalue="JUnit.QuestionnaireApplicationTests.testMd5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yehong\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a6d6d89-31ef-4a9c-93b1-38f5e4b8c36d" name="Default" comment="" />
+      <created>1565252986942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565252986942</updated>
+      <workItem from="1565252989354" duration="82925000" />
+      <workItem from="1565661421303" duration="73249000" />
+      <workItem from="1565912611819" duration="17133000" />
+      <workItem from="1566258954503" duration="23000" />
+      <workItem from="1566259095704" duration="22135000" />
+      <workItem from="1566783740784" duration="122000" />
+      <workItem from="1566783885231" duration="89523000" />
+      <workItem from="1567123941587" duration="80164000" />
+      <workItem from="1567569189709" duration="18517000" />
+      <workItem from="1567991209895" duration="4986000" />
+      <workItem from="1568016081223" duration="59791000" />
+      <workItem from="1568519083899" duration="3496000" />
+      <workItem from="1568522961523" duration="458000" />
+      <workItem from="1568524373630" duration="783000" />
+      <workItem from="1568525207729" duration="1813000" />
+      <workItem from="1568591934350" duration="7139000" />
+      <workItem from="1568686425886" duration="91405000" />
+      <workItem from="1568961910542" duration="83504000" />
+      <workItem from="1569407256866" duration="3915000" />
+      <workItem from="1569464347211" duration="45503000" />
+      <workItem from="1569717345841" duration="39450000" />
+      <workItem from="1570493051850" duration="5764000" />
+      <workItem from="1570501529559" duration="158000" />
+      <workItem from="1570501951106" duration="45632000" />
+      <workItem from="1570665636439" duration="913000" />
+      <workItem from="1570666623549" duration="3421000" />
+      <workItem from="1570670101993" duration="24155000" />
+      <workItem from="1570847545526" duration="605000" />
+      <workItem from="1570871942553" duration="3256000" />
+      <workItem from="1571017965935" duration="6438000" />
+      <workItem from="1571098051316" duration="13247000" />
+      <workItem from="1571213746571" duration="4238000" />
+      <workItem from="1571704253958" duration="2177000" />
+      <workItem from="1571791298782" duration="7184000" />
+      <workItem from="1571874551575" duration="792000" />
+      <workItem from="1571905506907" duration="4125000" />
+      <workItem from="1571969236307" duration="1676000" />
+      <workItem from="1571972806101" duration="45000" />
+      <workItem from="1571994102336" duration="1327000" />
+      <workItem from="1572222997914" duration="5933000" />
+      <workItem from="1572231702095" duration="27729000" />
+      <workItem from="1572489738822" duration="3932000" />
+      <workItem from="1572493985078" duration="65532000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1570503011830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570503011830</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1570503990578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570503990578</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1570613603759</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570613603759</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1570670234393</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570670234394</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1570670431239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570670431239</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1570686933320</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570686933320</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1570698153177</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570698153177</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1571011545952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571011545952</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1571020614416</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571020614416</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1571022807213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571022807213</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1571118041412</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571118041412</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1571185357560</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571185357560</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1571214779483</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571214779483</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1571216664029</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571216664029</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1571705337433</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571705337433</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1571793658845</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571793658846</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1571907335556</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1571907335556</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1571970319582</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571970319582</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1571994867626</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1571994867627</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1572331490025</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1572331490025</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1572332690467</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1572332690467</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1572332768081</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1572332768081</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1572333964395</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1572333964395</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1572334695424</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1572334695424</updated>
+    </task>
+    <task id="LOCAL-00025">
+      <created>1572400441753</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1572400441753</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="VisitorApplicationTests_contextLoads - 2019.09.27 at 13h 44m 53s.xml">
+      <configuration name="VisitorApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorApplicationTests_contextLoads - 2019.09.27 at 13h 47m 03s.xml">
+      <configuration name="VisitorApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorApplicationTests_testMd5 - 2019.09.27 at 13h 51m 31s.xml">
+      <configuration name="VisitorApplicationTests.testMd5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorApplicationTests_testMd5 - 2019.09.27 at 13h 55m 23s.xml">
+      <configuration name="VisitorApplicationTests.testMd5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorApplicationTests_testMd5 - 2019.09.27 at 14h 54m 40s.xml">
+      <configuration name="VisitorApplicationTests.testMd5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorApplicationTests_testMd5 - 2019.09.27 at 15h 41m 14s.xml">
+      <configuration name="VisitorApplicationTests.testMd5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorApplicationTests_testMd5 - 2019.09.27 at 15h 41m 53s.xml">
+      <configuration name="VisitorApplicationTests.testMd5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorApplicationTests_testMd5 - 2019.09.27 at 15h 42m 10s.xml">
+      <configuration name="VisitorApplicationTests.testMd5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorApplicationTests_testMd5 - 2019.09.27 at 15h 42m 28s.xml">
+      <configuration name="VisitorApplicationTests.testMd5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorApplicationTests_testMd5 - 2019.09.27 at 15h 46m 01s.xml">
+      <configuration name="VisitorApplicationTests.testMd5" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>visitor:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>visitor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3869239" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

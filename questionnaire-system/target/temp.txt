@@ -1,0 +1,24 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.7.RELEASE)
+
+2019-10-23 15:00:13.645  INFO 29157 --- [           main] c.chinameyer.visitor.VisitorApplication  : Starting VisitorApplication v0.0.1 on VM_0_12_centos with PID 29157 (/home/visitor-0.0.1.jar started by root in /home)
+2019-10-23 15:00:13.648  INFO 29157 --- [           main] c.chinameyer.visitor.VisitorApplication  : No active profile set, falling back to default profiles: default
+2019-10-23 15:00:16.335  INFO 29157 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-23 15:00:16.338  INFO 29157 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-23 15:00:16.390  INFO 29157 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-10-23 15:00:17.510  INFO 29157 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d94a1e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 15:00:18.306  INFO 29157 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-23 15:00:18.413  INFO 29157 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 15:00:18.413  INFO 29157 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-10-23 15:00:18.689  INFO 29157 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 15:00:18.689  INFO 29157 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4860 ms
+2019-10-23 15:00:21.129  INFO 29157 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 15:00:21.398  INFO 29157 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-23 15:00:23.116  INFO 29157 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-23 15:00:23.129  INFO 29157 --- [           main] c.chinameyer.visitor.VisitorApplication  : Started VisitorApplication in 11.118 seconds (JVM running for 12.148)

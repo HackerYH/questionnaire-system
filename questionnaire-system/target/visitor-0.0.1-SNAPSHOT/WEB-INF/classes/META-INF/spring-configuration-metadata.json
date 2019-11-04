@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "wx.mp",
+      "type": "com.chinameyer.visitor.bean.WxMpProperties",
+      "sourceType": "com.chinameyer.visitor.bean.WxMpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wx.mp.configs",
+      "type": "java.util.List<com.chinameyer.visitor.bean.WxMpProperties$MpConfig>",
+      "sourceType": "com.chinameyer.visitor.bean.WxMpProperties"
+    }
+  ],
+  "hints": []
+}
